@@ -36,9 +36,9 @@ echo "creating user: kun"
 
 
 adduser kun
-addgroup video
-addgroup audio
-addgroup wheel
+addgroup kun video
+addgroup kun audio
+addgroup kun wheel
 
 echo ""
 echo "DONE"
