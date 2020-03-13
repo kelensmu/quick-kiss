@@ -3,6 +3,7 @@ export CFLAGS="-O3 -pipe -march=native"
 export CXXFLAGS="-O3 -pipe -march=native"
 export MAKEFLAGS="-j $(nproc)"
 kiss u
+kiss u
 kiss b
 
 programs="e2fsprogs dosfstools eudev util-linux wpa_supplicant dhcpcd libelf ncurses perl wget grub efibootmgr baseinit git xorg-server xinit xf86-input-libinput sowm liberation-fonts sudo"
