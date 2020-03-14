@@ -6,13 +6,13 @@ kiss u
 kiss u
 kiss b
 
-programs="e2fsprogs dosfstools eudev util-linux wpa_supplicant dhcpcd libelf ncurses perl wget grub efibootmgr baseinit git xorg-server xinit xf86-input-libinput sowm liberation-fonts sudo"
+programs="ncurses e2fsprogs dosfstools eudev util-linux wpa_supplicant dhcpcd libelf ncurses perl wget grub efibootmgr baseinit git xorg-server xinit xf86-input-libinput sowm liberation-fonts sudo"
 
 kiss b $programs
 kiss i $programs
 
-cd /
-
+cd /file:///usr/share/kali-defaults/web/homepage.html
+file:///usr/share/kali-defaults/web/homepage.html
 echo "downloading kernel and firmware..."
 
 kernel="linux-5.5.9"
