@@ -1,6 +1,6 @@
 
 version=5.5.9
-
+cd /linux-$version
 make menuconfig
 
 make -j "$(nproc)"
