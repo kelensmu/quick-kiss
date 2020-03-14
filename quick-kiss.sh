@@ -11,8 +11,7 @@ programs="ncurses e2fsprogs dosfstools eudev util-linux wpa_supplicant dhcpcd li
 kiss b $programs
 kiss i $programs
 
-cd /file:///usr/share/kali-defaults/web/homepage.html
-file:///usr/share/kali-defaults/web/homepage.html
+cd /
 echo "downloading kernel and firmware..."
 
 kernel="linux-5.5.9"
